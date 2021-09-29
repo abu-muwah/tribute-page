@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,600&family=PT+Sans+Caption:wght@400;700&family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    font-family: PT Sans Caption;
+}
+
+.display-flex {
+    display: flex;
+}
+
+body {
+    padding: 35px 10px 35px 10px;
+}
+
+#main {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F5F7FA;
+    width: 100%;
+    height: max-content;
+    color: #323F4B;
+}
+
+#title {
+    font-size: 50px;
+    margin: 0;
+    padding-top: 80px;
+}
+
+#img-div {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#image {
+    max-width: 80%;
+}
+
+#img-caption {
+    background: #fff;
+    padding: 25px;
+    width: 97%;
+}
+
+#tribute-info {
+    text-align: left;
+    font-size: 18px;
+    padding: 50px 300px;
+}
+
+#ul-style{
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 700;
+}  
+
+.h2-content-edit {
+    font-weight: 700;
+}
+
+#tribute-link {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#tribute-link {
+    color: #616E7C;
+}
+
+/* Responsive Codes */
+
+@media screen and (max-width: 2700px) {
+    #title {
+        font-size: 90px;
+        margin: 0;
+        padding-top: 80px;
+    }
+
+    #main p {
+        font-size: 25px;
+    }
+
+    #img-caption {
+        font-size: 30px;
+    }
+    
+    #tribute-info {
+        font-size: 50px;
+        padding: 50px 300px;
+    }
+
+    #tribute-info p {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #title {
+        font-size: 50px;
+        margin: 0;
+        padding-top: 80px;
+    }
+
+    #main p {
+        font-size: 18px;
+    }
+
+    #img-caption {
+        font-size: 20px;
+    }
+    
+    #tribute-info {
+        font-size: 18px;
+        padding: 30px 200px;
+    }
+
+    #tribute-info p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #tribute-info {
+        font-size: 18px;
+        padding: 10px 100px;
+    }
+
+    #img-caption {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #tribute-info {
+        padding: 5px 50px;
+    }
+
+    #img-caption {
+        font-size: 15px;
+    }
+}
+
